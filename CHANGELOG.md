@@ -7,3 +7,6 @@
 
 ## 0.0.3
 * update github url
+
+## 0.0.4
+* add dartdoc comments

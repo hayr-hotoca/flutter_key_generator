@@ -10,3 +10,6 @@
 
 ## 0.0.4
 * add dartdoc comments
+
+## 0.0.5
+* change AES to ChaCha20 on android

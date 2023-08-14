@@ -46,7 +46,7 @@ class FlutterKeyGeneratorPlugin: FlutterPlugin, MethodCallHandler {
         )
       }
 
-      val keygen = KeyGenerator.getInstance("AES")
+      val keygen = KeyGenerator.getInstance("ChaCha20")
       keygen.init(size)
       val key: SecretKey = keygen.generateKey()
 

@@ -11,7 +11,8 @@ class MethodChannelFlutterKeyGenerator extends FlutterKeyGeneratorPlatform {
 
   @override
   Future<List<int>?> generateSymmetricKey(int size) async {
-    final version = await methodChannel.invokeMethod<List<int>>('generateSymmetricKey', { 'size': size });
+    final version = await methodChannel
+        .invokeMethod<List<int>>('generateSymmetricKey', {'size': size});
     return version;
   }
 }

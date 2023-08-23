@@ -13,3 +13,6 @@
 
 ## 0.0.5
 * change AES to ChaCha20 on android
+
+## 0.0.6
+* format dart code

@@ -4,13 +4,13 @@ import 'package:flutter_key_generator/flutter_key_generator_platform_interface.d
 import 'package:flutter_key_generator/flutter_key_generator_method_channel.dart';
 
 class MockFlutterKeyGeneratorPlatform implements FlutterKeyGeneratorPlatform {
-
   @override
   Future<List<int>?> generateSymmetricKey(int size) => Future.value([42]);
 }
 
 void main() {
-  final FlutterKeyGeneratorPlatform initialPlatform = FlutterKeyGeneratorPlatform.instance;
+  final FlutterKeyGeneratorPlatform initialPlatform =
+      FlutterKeyGeneratorPlatform.instance;
 
   test('$MethodChannelFlutterKeyGenerator is the default instance', () {
     expect(initialPlatform, isInstanceOf<MethodChannelFlutterKeyGenerator>());

@@ -1,6 +1,6 @@
 name: flutter_key_generator
 description: Secure unique 128, 192, 256 bit key generator for Flutter iOS & Android.
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/hayr-hotoca/flutter_key_generator
 
 environment:

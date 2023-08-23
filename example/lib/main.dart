@@ -18,8 +18,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   void genUniqueKey() async {
     try {
-      final key =
-        await FlutterKeyGenerator.generateSymmetricKey(256);
+      final key = await FlutterKeyGenerator.generateSymmetricKey(256);
       print(key);
     } catch (e) {
       print(e);
